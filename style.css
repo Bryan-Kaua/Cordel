@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
@@ -6,7 +6,8 @@
 :root{
     --font1:cursive;
     --font2: "Caveat", cursive;
-    --font3: 'Passion One' , cursive;
+    --font3: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 *{
@@ -18,12 +19,21 @@ body{
 }
 header{
     background-color: black;
+    padding: 1vh;
+    height: 15vh;
 }
 h1{
     color: white;
+    text-align: center;
+    margin: 3vh 0px 1vh 0px;
+    font-family: var(--font3);
+    font-size: 5vh;
 }
 header > p{
     color: rgb(150, 147, 147);
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: var(--font1);
 }
 a{
     text-decoration: none;
