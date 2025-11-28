@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+header > p{
+    color: rgb(150, 147, 147);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0.466);
+}
