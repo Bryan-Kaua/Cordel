@@ -6,6 +6,7 @@
 :root{
     --font1:cursive;
     --font2: Verdana, Geneva, Tahoma, sans-serif;
+    --font3:Caveat, cursive;
 
 }
 
@@ -19,19 +20,19 @@ body{
 header{
     background-color: black;
     padding: 1vh;
-    height: 15vh;
+    height: 24vw;
 }
 h1{
     color: white;
     text-align: center;
-    margin: 3vh 0px 1vh 0px;
+    margin: 5vw 0px 1vw 0px;
     font-family: var(--font2);
-    font-size: 5vh;
+    font-size: 7vw;
 }
 header > p{
     color: rgb(150, 147, 147);
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
     font-family: var(--font1);
 }
 a{
@@ -42,32 +43,39 @@ a:hover{
     background-color: rgba(240, 248, 255, 0.466);
 }
 
-article{
-    padding: 2vh;
-    height: 60vh;
+.normal{
+    padding: 2vw;
+    height: 60vw;
+    margin: 10vw 1vw 5vw;
+}
+.imagem{
+    padding: 4vw;
+    height: 60vw;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#img01{
+    background-position: right center;
+    background-image: url('imagens/background001.jpg');
+}
+
+#img02{
+    background-position: left center;
+    background-image: url('imagens/background002.jpg');
 }
 
 article > p{
-    font-family: var(--font1);
-    margin: 10vh 0vh;
-    font-size: 3vh;
+    font-family: var(--font3);
+    font-size: 5vw;
 }
 
-article#A2{
-    background-image: url('imagens/background001.jpg');
-    background-attachment: fixed;
-
-    background-position: center center;
-
-}
-div#c1{
-    padding: 2.5vh;
-    background-color: rgba(0, 0, 0, 0.329);
-    display: inline-block;
-    margin-top: 5vh;
-}
-div#c1 > p{
-    font-family: var(--font1);
-    font-size: 3vh;
+#c1{
+    padding: 3px 0px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.274);
     color: white;
+    font-size: 5vw;
+    font-family: var(--font3);
+    width: 50vw;
+    margin: 8vw 0px;
 }
