@@ -65,7 +65,7 @@ a:hover{
     background-image: url('imagens/background002.jpg');
 }
 
-article > p{
+article, div> p{
     font-family: var(--font3);
     font-size: 5vw;
 }
@@ -78,4 +78,26 @@ article > p{
     font-family: var(--font3);
     width: 50vw;
     margin: 8vw 0px;
+}
+.maior{
+    padding: 2vw;
+    height: 105vw;
+    margin: 10vw 1vw 5vw;
+}
+#c2{
+    padding: 3px 0px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    font-size: 5vw;
+    font-family: var(--font3);
+    width: 50vw;
+    margin: 8vw 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    font-size: 2.5vw;
 }
